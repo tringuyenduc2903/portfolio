@@ -53,7 +53,7 @@ export default function TimeLine() {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-              {item.title}{" "}
+              {item.title}
               {item.id === 0 && (
                 <span className="bg-red-500 text-[#fff] text-sm font-medium me-2 px-2.5 py-0.5 border-sky-100 rounded ms-3">
                   Mới nhất

@@ -16,7 +16,7 @@ export default function Contact() {
         </p>
         <div className="grid grid-cols-2 text-[0.7rem] md:text-[0.85rem] lg:text-base gap-2 md:gap-3 lg:gap-4">
           <Link
-            href="tel:0982213854"
+            href="tel:+84982213854"
             className="flex align-middle items-center font-jak font-bold space-x-1 w-max"
           >
             <FaPhoneAlt className="text-[#518FC7] dark:text-[#2498fe] h-3 w-3 md:h-4 md:w-4" />

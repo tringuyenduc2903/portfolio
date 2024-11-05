@@ -9,6 +9,12 @@ import { useEffect, useRef, useState } from "react";
 export default function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
 
+  useEffect(() => {
+    if (!theme || theme === "system") {
+      setTheme(systemTheme);
+    }
+  }, [setTheme, systemTheme, theme]);
+
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,7 +63,9 @@ export default function Header() {
     };
   }, []);
 
-  if (!mounted) return null;
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <nav
