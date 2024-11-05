@@ -6,7 +6,6 @@ import Image from "next/image";
 
 export default function Footer() {
   const { systemTheme, theme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
     <div className="flex select-none text-sm py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
@@ -30,16 +29,16 @@ export default function Footer() {
           target="blank"
           className="dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
-          <Image
-            src={
-              currentTheme === "dark" ? "/github-dark.png" : "/github-light.png"
-            }
-            alt="github"
-            loading="lazy"
-            priority={false}
-            width={30}
-            height={30}
-          />
+          {theme && (
+            <Image
+              src={theme === "dark" ? "/github-dark.png" : "/github-light.png"}
+              alt="github"
+              loading="lazy"
+              priority={false}
+              width={30}
+              height={30}
+            />
+          )}
         </Link>
         <Link
           href="https://www.facebook.com/tringuyenduc2903"

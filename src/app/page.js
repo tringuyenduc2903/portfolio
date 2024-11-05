@@ -4,43 +4,41 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { BsArrowUpRight } from "react-icons/bs";
-import Experience from "@/app/components/experience";
-import Contact from "@/app/components/contact";
+import Experience from "@/components/experience";
+import Contact from "@/components/contact";
 
 export default function Home() {
   const { systemTheme, theme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
     <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
         <div className="flex flex-row justify-start items-center mt-20">
-          <Image
-            src={
-              currentTheme === "dark" ? "Avatar-black.svg" : "Avatar-white.svg"
-            }
-            className="select-none"
-            alt="avatar"
-            loading="lazy"
-            priority={false}
-            width={80}
-            height={80}
-          />
+          {theme && (
+            <Image
+              src={theme === "dark" ? "Avatar-black.svg" : "Avatar-white.svg"}
+              alt="avatar"
+              loading="lazy"
+              priority={false}
+              width={80}
+              height={80}
+            />
+          )}
           <div className="flex flex-col ml-4">
             <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
               <span className="font-semibold">Nguyễn Đức Trí</span>
               <span>
-                <Image
-                  src={
-                    currentTheme === "dark" ? "boo-white.svg" : "boo-black.svg"
-                  }
-                  className="select-none"
-                  alt="boo"
-                  loading="lazy"
-                  priority={false}
-                  width={30}
-                  height={30}
-                />
+                {theme && (
+                  <Image
+                    src={theme === "dark" ? "boo-white.svg" : "boo-black.svg"}
+                    className="select-none"
+                    alt="boo"
+                    loading="lazy"
+                    priority={false}
+                    width={30}
+                    height={30}
+                  />
+                )}
               </span>
             </h2>
             <h3>

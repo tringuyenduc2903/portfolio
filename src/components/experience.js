@@ -26,7 +26,6 @@ function getExperience() {
 
 export default function Experience() {
   const { systemTheme, theme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
   const { diffYears, diffMonths } = getExperience();
 
@@ -90,17 +89,16 @@ export default function Experience() {
           </div>
         </div>
         <div className="relative w-full h-80 transition duration-150 ease-out">
-          <Image
-            src={
-              currentTheme === "dark" ? "float-black.svg" : "float-white.svg"
-            }
-            fill
-            className="select-none"
-            alt="Design Image"
-            loading="lazy"
-            priority={false}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+          {theme && (
+            <Image
+              src={theme === "dark" ? "float-black.svg" : "float-white.svg"}
+              fill
+              alt="Design Image"
+              loading="lazy"
+              priority={false}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          )}
         </div>
       </div>
       <div className="w-[80%] max-w-2xl mx-auto">

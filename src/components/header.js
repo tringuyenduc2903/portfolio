@@ -8,7 +8,6 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
@@ -78,17 +77,17 @@ export default function Header() {
             tringuyenduc
           </Link>
         </div>
-        {currentTheme === "dark" ? (
+        {theme === "dark" ? (
           <button
             onClick={() => setTheme("light")}
-            className="w-max md:order-8 fill-purple-600 "
+            className="w-max md:order-8 fill-purple-600"
           >
             <MdOutlineLightMode className="w-4 h-4" />
           </button>
         ) : (
           <button
             onClick={() => setTheme("dark")}
-            className="w-max md:order-8 fill-purple-600 "
+            className="w-max md:order-8 fill-purple-600"
           >
             <MdOutlineDarkMode className="w-4 h-4" />
           </button>
@@ -100,7 +99,7 @@ export default function Header() {
         >
           <div
             className={` ${
-              open && "rotate-45 translate-y-[5px] "
+              open && "rotate-45 translate-y-[5px]"
             } relative rounded-xl origin-center transition-all duration-500 ease-in w-4 h-[0.1125rem] dark:bg-white/70 dark:text-white/70 fill-black text-black bg-black`}
           ></div>
           <div
