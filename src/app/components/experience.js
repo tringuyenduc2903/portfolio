@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { useTheme } from "next-themes";
 import { BsArrowUpRight } from "react-icons/bs";
 import Image from "next/image";
+import Link from "next/link";
 
 function getExperience() {
   const today = new Date();
