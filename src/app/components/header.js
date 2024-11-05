@@ -71,7 +71,12 @@ export default function Header() {
     >
       <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
-          <Link href="/"></Link>
+          <Link
+            href="/"
+            className="text-black dark:text-white text-lg font-semibold"
+          >
+            tringuyenduc
+          </Link>
         </div>
         {currentTheme === "dark" ? (
           <button
