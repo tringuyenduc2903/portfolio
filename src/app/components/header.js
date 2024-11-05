@@ -10,7 +10,7 @@ export default function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
 
-  const router = useRouter().asPath;
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -57,6 +57,7 @@ export default function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   if (!mounted) return null;
 
   return (

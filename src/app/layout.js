@@ -1,6 +1,7 @@
 import "./globals.css";
-import Header from "@/app/components/header";
 import { ThemeProvider } from "next-themes";
+import Header from "@/app/components/header";
+import Footer from "@/app/components/footer";
 
 export const metadata = {
   title: "Nguyễn Đức Trí ✦ Lập trình viên",
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
           <main className="land relative z-10">
             <Header />
             {children}
+            <Footer />
           </main>
         </body>
       </ThemeProvider>
