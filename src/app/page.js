@@ -32,7 +32,7 @@ export default function Home() {
               <span>
                 <Image
                   src={
-                    currentTheme === "dark" ? "boo-black.svg" : "boo-white.svg"
+                    currentTheme === "dark" ? "boo-white.svg" : "boo-black.svg"
                   }
                   className="select-none"
                   alt="boo"
