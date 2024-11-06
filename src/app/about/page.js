@@ -54,57 +54,10 @@ export default function About() {
           </div>
           <CategoryCard />
           <div className="text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
-            <p className="mt-6 font-normal">
-              <span className="inline-flex items-baseline">
-                <Image
-                  src="/Rocket.png"
-                  alt="rocket"
-                  className="self-center mx-1"
-                  loading="lazy"
-                  priority={false}
-                  width={25}
-                  height={25}
-                />
-              </span>
-              Không chỉ lập trình Backend, tôi cũng có thể làm việc với NextJs,
-              jQuery.
-            </p>
-            <p className="font-normal">
-              <span className="inline-flex items-baseline">
-                <Image
-                  src="/Sparkles.png"
-                  alt="sparkles"
-                  className="self-center mx-1"
-                  loading="lazy"
-                  priority={false}
-                  width={25}
-                  height={25}
-                />
-              </span>
-              Ngoài ra, tôi đang dành 1 phần thời gian cho nghiên cứu Pest.
-            </p>
-            <p className="mb-12 font-normal">
-              <span className="inline-flex items-baseline">
-                <Image
-                  src="/Flash.png"
-                  alt="flash"
-                  className="self-center mx-1"
-                  loading="lazy"
-                  priority={false}
-                  width={25}
-                  height={25}
-                />
-              </span>
-              Và đó là câu chuyện tôi muốn kể cho bạn.
-            </p>
-            <p className="text-blue-600 select-none font-semibold mb-1 dark:text-orange-500">
+            <h5 className="text-blue-600 select-none font-semibold mb-1 dark:text-orange-500">
               Liên lạc
-            </p>
+            </h5>
             <p>
-              Mặc dù tôi không phải là một nhân vật được công nhận rộng rãi
-              nhưng tôi luôn sẵn sàng kết nối trên các nền tảng truyền thông xã
-              hội của mình.
-              <br />
               <Link
                 className="underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 href="tel:+84982213854"

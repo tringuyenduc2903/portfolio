@@ -8,7 +8,7 @@ export default function TimeLine() {
             title: "Bảo vệ đồ án",
             duration: "12/2023 - 10/2024",
             org: "Dự án Hệ thống phân phối xe máy Agilts",
-            skills: ["Laravel", "MariaDB"],
+            skills: ["Laravel", "Svelte", "MariaDB", "Meilisearch"],
             class:
               "bg-red-100 text-red-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
           },
@@ -17,7 +17,7 @@ export default function TimeLine() {
             title: "Nhân viên tại Ecommage",
             duration: "10/2023 - 11/2023",
             org: "Lập trình viên Backend",
-            skills: ["Magento", "jQuery", "MySQL"],
+            skills: ["Magento", "jQuery", "MySQL", "Elasticsearch"],
             class:
               "bg-green-100 text-green-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
           },
@@ -26,7 +26,7 @@ export default function TimeLine() {
             title: "Thực tập tại Ecommage",
             duration: "06/2023 - 09/2023",
             org: "Thực tập sinh Backend",
-            skills: ["Magento"],
+            skills: ["Magento", "jQuery"],
             class:
               "bg-yellow-100 text-yellow-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
           },
@@ -35,7 +35,20 @@ export default function TimeLine() {
             title: "Học tập tại VTC Academy",
             duration: "10/2020 - 05/2023",
             org: "Lập trình Full-stack",
-            skills: ["C", "C#", "PHP", "MySQL", "Go", "MongoDB"],
+            skills: [
+              "C",
+              "C#",
+              "PHP",
+              "Go",
+              "MySQL",
+              "MongoDB",
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "NodeJs",
+              "ReactJs",
+              "ReactNative",
+            ],
             class:
               "bg-pink-100 text-pink-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
           },

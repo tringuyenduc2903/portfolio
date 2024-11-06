@@ -11,8 +11,7 @@ export default function Contact() {
           Liên lạc
         </h2>
         <p className="text-sm md:text-md font-normal lg:text-lg xl:text-lg">
-          Nếu bạn có bất kỳ thắc mắc nào hoặc muốn thảo luận về các cơ hội tiềm
-          năng, vui lòng liên hệ với tôi bằng các liên kết sau:
+          Vui lòng liên hệ với tôi bằng các liên kết sau:
         </p>
         <div className="grid grid-cols-2 text-[0.7rem] md:text-[0.85rem] lg:text-base gap-2 md:gap-3 lg:gap-4">
           <Link
