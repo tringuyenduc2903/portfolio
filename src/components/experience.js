@@ -91,12 +91,13 @@ export default function Experience() {
         <div className="relative w-full h-80 transition duration-150 ease-out">
           {theme && (
             <Image
-              src={theme === "dark" ? "float-black.svg" : "float-white.svg"}
-              fill
+              src={theme === "dark" ? "/float-black.png" : "/float-white.png"}
               alt="Design Image"
               loading="lazy"
+              className="mx-auto"
               priority={false}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              width={300}
+              height={400}
             />
           )}
         </div>

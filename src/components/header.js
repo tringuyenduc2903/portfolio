@@ -80,7 +80,7 @@ export default function Header() {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link
             href="/"
-            className="text-black dark:text-white text-xl font-semibold font-app"
+            className="text-black dark:text-white text-sm lg:text-xl font-semibold font-app"
           >
             tringuyenduc2903
           </Link>

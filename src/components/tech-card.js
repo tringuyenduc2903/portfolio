@@ -14,7 +14,6 @@ export default function TechCard({ changeId, id, main, alt }) {
           fill
           className="select-none group-hover:scale-[1.1] transition-all duration-700 object-contain p-2 md:p-3 rounded-lg md:rounded-xl lg:rounded-2xl"
           alt={alt}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
     </div>

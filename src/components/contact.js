@@ -33,12 +33,11 @@ export default function Contact() {
       </div>
       <div className="order-1 lg:order-2 absolute -rotate-[15deg] lg:rotate-0 lg:flex top-6 right-4 md:top-10 md:right-12 lg:basis-[40%]">
         <Image
-          src="Rectangle.svg"
+          src="/Rectangle.png"
           className="select-none backdrop-shadow-xl h-24 w-24 md:h-40 md:w-44 lg:w-[15rem] lg:h-[16rem] xl:w-[16rem] xl:h-[18rem]"
           alt="boo"
           loading="lazy"
           priority={false}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           width={750}
           height={650}
         />

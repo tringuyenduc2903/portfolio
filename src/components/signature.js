@@ -13,7 +13,7 @@ export default function Signature() {
       </span>
       {theme && (
         <Image
-          src={theme === "dark" ? "love-white.svg" : "love-black.svg"}
+          src={theme === "dark" ? "/love-white.png" : "/love-black.png"}
           alt="love"
           className="-mt-4"
           loading="lazy"

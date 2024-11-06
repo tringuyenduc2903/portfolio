@@ -57,7 +57,7 @@ export default function About() {
             <p className="mt-6 font-normal">
               <span className="inline-flex items-baseline">
                 <Image
-                  src="Rocket.svg"
+                  src="/Rocket.png"
                   alt="rocket"
                   className="self-center mx-1"
                   loading="lazy"
@@ -72,7 +72,7 @@ export default function About() {
             <p className="font-normal">
               <span className="inline-flex items-baseline">
                 <Image
-                  src="Sparkles.svg"
+                  src="/Sparkles.png"
                   alt="sparkles"
                   className="self-center mx-1"
                   loading="lazy"
@@ -86,7 +86,7 @@ export default function About() {
             <p className="mb-12 font-normal">
               <span className="inline-flex items-baseline">
                 <Image
-                  src="Flash.svg"
+                  src="/Flash.png"
                   alt="flash"
                   className="self-center mx-1"
                   loading="lazy"

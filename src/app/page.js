@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-row justify-start items-center mt-20">
           {theme && (
             <Image
-              src={theme === "dark" ? "Avatar-black.svg" : "Avatar-white.svg"}
+              src={theme === "dark" ? "/Avatar-black.png" : "/Avatar-white.png"}
               alt="avatar"
               loading="lazy"
               priority={false}
@@ -30,7 +30,7 @@ export default function Home() {
               <span>
                 {theme && (
                   <Image
-                    src={theme === "dark" ? "boo-white.svg" : "boo-black.svg"}
+                    src={theme === "dark" ? "/boo-white.png" : "/boo-black.png"}
                     className="select-none"
                     alt="boo"
                     loading="lazy"
