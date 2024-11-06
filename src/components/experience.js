@@ -95,7 +95,6 @@ export default function Experience() {
               alt="Design Image"
               loading="lazy"
               className="mx-auto"
-              priority={false}
               width={300}
               height={400}
             />

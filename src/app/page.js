@@ -19,7 +19,6 @@ export default function Home() {
               src={theme === "dark" ? "/Avatar-black.png" : "/Avatar-white.png"}
               alt="avatar"
               loading="lazy"
-              priority={false}
               width={80}
               height={80}
             />
@@ -34,7 +33,6 @@ export default function Home() {
                     className="select-none"
                     alt="boo"
                     loading="lazy"
-                    priority={false}
                     width={30}
                     height={30}
                   />

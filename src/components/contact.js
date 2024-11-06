@@ -36,7 +36,6 @@ export default function Contact() {
           className="select-none backdrop-shadow-xl h-24 w-24 md:h-40 md:w-44 lg:w-[15rem] lg:h-[16rem] xl:w-[16rem] xl:h-[18rem]"
           alt="boo"
           loading="lazy"
-          priority={false}
           width={750}
           height={650}
         />

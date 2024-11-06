@@ -13,7 +13,6 @@ export default function CategoryCard() {
             alt="sparkles"
             className="self-center mx-1"
             loading="lazy"
-            priority={false}
             width={25}
             height={25}
           />
@@ -27,7 +26,6 @@ export default function CategoryCard() {
             alt="rocket"
             className="self-center mx-1"
             loading="lazy"
-            priority={false}
             width={25}
             height={25}
           />
@@ -41,7 +39,6 @@ export default function CategoryCard() {
             alt="flash"
             className="self-center mx-1"
             loading="lazy"
-            priority={false}
             width={25}
             height={25}
           />

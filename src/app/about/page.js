@@ -22,7 +22,6 @@ export default function About() {
                 alt="hero"
                 className="rounded-full"
                 loading="lazy"
-                priority={false}
                 width={160}
                 height={160}
               />

@@ -159,7 +159,6 @@ export default function TechStack() {
                 alt="tech"
                 fill
                 loading="lazy"
-                priority={false}
                 className="select-none p-1 sm:p-2 md:p-3 lg:p-4 h-full w-full flex mx-auto object-contain rounded-2xl"
               />
             </div>

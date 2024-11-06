@@ -19,7 +19,6 @@ export default function Footer() {
             src="/linkedin.png"
             alt="linkedin"
             loading="lazy"
-            priority={false}
             width={30}
             height={30}
           />
@@ -34,7 +33,6 @@ export default function Footer() {
               src={theme === "dark" ? "/github-dark.png" : "/github-light.png"}
               alt="github"
               loading="lazy"
-              priority={false}
               width={30}
               height={30}
             />
@@ -49,7 +47,6 @@ export default function Footer() {
             src="/facebook.png"
             alt="facebook"
             loading="lazy"
-            priority={false}
             width={30}
             height={30}
           />

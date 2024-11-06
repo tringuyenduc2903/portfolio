@@ -17,7 +17,6 @@ export default function Signature() {
           alt="love"
           className="-mt-4"
           loading="lazy"
-          priority={false}
           width={30}
           height={30}
         />

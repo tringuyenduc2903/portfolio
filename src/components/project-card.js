@@ -44,7 +44,6 @@ export default function ProjectCard() {
                 src={project.image}
                 alt={project.title}
                 className="rounded-lg drop-shadow-2xl hover:scale-110"
-                priority={false}
                 loading="lazy"
                 width={200}
                 height={200}
