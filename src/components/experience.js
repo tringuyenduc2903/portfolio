@@ -102,7 +102,7 @@ export default function Experience() {
         </div>
       </div>
       <div className="w-[80%] max-w-2xl mx-auto">
-        <div className="text-center font-normal mb-6 tracking-normal text-sm leading-5 sm:text-base lg:text-lg">
+        <div className="text-center font-normal mb-6 tracking-normal leading-5 sm:text-base text-lg">
           Xem các dự án tiêu biểu tôi đã tham gia phát triển
         </div>
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center my-4">

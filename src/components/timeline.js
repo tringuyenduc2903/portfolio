@@ -10,7 +10,7 @@ export default function TimeLine() {
             org: "Dự án Hệ thống phân phối xe máy Agilts",
             skills: ["Laravel", "MariaDB"],
             class:
-              "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
+              "bg-red-100 text-red-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
           },
           {
             id: 1,
@@ -19,7 +19,7 @@ export default function TimeLine() {
             org: "Lập trình viên Backend",
             skills: ["Magento", "jQuery", "MySQL"],
             class:
-              "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
+              "bg-green-100 text-green-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
           },
           {
             id: 2,
@@ -28,7 +28,7 @@ export default function TimeLine() {
             org: "Thực tập sinh Backend",
             skills: ["Magento"],
             class:
-              "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
+              "bg-yellow-100 text-yellow-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
           },
           {
             id: 3,
@@ -37,7 +37,7 @@ export default function TimeLine() {
             org: "Lập trình Full-stack",
             skills: ["C", "C#", "PHP", "MySQL", "Go", "MongoDB"],
             class:
-              "bg-pink-100 text-pink-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
+              "bg-pink-100 text-pink-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
           },
         ].map((item) => (
           <li className="mb-10 ms-6" key={item.id}>
@@ -55,7 +55,7 @@ export default function TimeLine() {
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
               {item.title}
               {item.id === 0 && (
-                <span className="bg-red-500 text-[#fff] text-sm font-medium me-2 px-2.5 py-0.5 border-sky-100 rounded ms-3">
+                <span className="bg-red-500 text-[#fff] text-sm font-medium m-2 px-2.5 py-0.5 border-sky-100 rounded ms-3">
                   Mới nhất
                 </span>
               )}

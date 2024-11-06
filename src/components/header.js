@@ -80,9 +80,9 @@ export default function Header() {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link
             href="/"
-            className="text-black dark:text-white text-lg font-semibold"
+            className="text-black dark:text-white text-xl font-semibold font-app"
           >
-            tringuyenduc
+            tringuyenduc2903
           </Link>
         </div>
         {theme === "dark" ? (

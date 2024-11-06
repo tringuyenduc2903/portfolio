@@ -97,7 +97,7 @@ export default function About() {
               </span>
               Và đó là câu chuyện tôi muốn kể cho bạn.
             </p>
-            <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30">
+            <p className="text-blue-600 select-none font-semibold mb-1 dark:text-orange-500">
               Liên lạc
             </p>
             <p>
@@ -106,14 +106,14 @@ export default function About() {
               hội của mình.
               <br />
               <Link
-                className="text-red-700 underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
+                className="underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 href="tel:+84982213854"
               >
                 Gọi điện trực tiếp
               </Link>{" "}
               hoặc{" "}
               <Link
-                className="text-blue-700 underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
+                className="underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 href="mailto:nguyenductri2k3@gmail.com"
               >
                 Gửi lời mời qua hòm thư điện tử
