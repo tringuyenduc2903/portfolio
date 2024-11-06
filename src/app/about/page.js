@@ -4,7 +4,7 @@ import CategoryCard from "@/components/category-card";
 import Signature from "@/components/signature";
 
 export const metadata = {
-  title: "Thông tin cá nhân ✦ Nguyễn Đức Trí",
+  title: "Thông tin ✦ Nguyễn Đức Trí",
 };
 
 export default function About() {
@@ -13,8 +13,8 @@ export default function About() {
       <main className="max-w-screen">
         <div className="mx-auto pt-16 -pb-10 max-w-7xl">
           <div className="mx-auto flex flex-col">
-            <h1 className="mt-6 mb-12 bg-gradient-to-br to-blue-500 via-red-400/90 from-yellow-500 bg-clip-text text-transparent selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
-              Thông tin cá nhân
+            <h1 className="mt-6 mb-12 bg-gradient-to-br to-blue-500 via-red-400/90 from-yellow-500 bg-clip-text text-transparent selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-5xl font-semibold">
+              Thông tin
             </h1>
             <div className="mx-auto transition-all duration-1000 ease-in-out -mt-8">
               <Image
@@ -27,7 +27,7 @@ export default function About() {
                 height={160}
               />
             </div>
-            <p className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-sm md:text-base lg:text-xl mb-2 px-2">
+            <p className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-xl mb-2 px-2">
               Họ và tên: <strong>Nguyễn Đức Trí</strong>
             </p>
             <div className="select-none flex justify-center space-x-4 items-center mt-2 text-gray-400">
