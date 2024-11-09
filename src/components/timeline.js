@@ -1,58 +1,60 @@
 export default function TimeLine() {
+  const data = [
+    {
+      id: 0,
+      title: "Bảo vệ đồ án",
+      duration: "12/2023 - 10/2024",
+      org: "Dự án Hệ thống phân phối xe máy Agilts",
+      skills: ["Laravel", "Svelte", "MariaDB", "Meilisearch"],
+      class:
+        "bg-red-100 text-red-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
+    },
+    {
+      id: 1,
+      title: "Nhân viên tại Ecommage",
+      duration: "10/2023 - 11/2023",
+      org: "Lập trình viên Backend",
+      skills: ["Magento", "jQuery", "MySQL", "Elasticsearch"],
+      class:
+        "bg-green-100 text-green-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
+    },
+    {
+      id: 2,
+      title: "Thực tập tại Ecommage",
+      duration: "06/2023 - 09/2023",
+      org: "Thực tập sinh Backend",
+      skills: ["Magento", "jQuery", "Docker"],
+      class:
+        "bg-yellow-100 text-yellow-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
+    },
+    {
+      id: 3,
+      title: "Học tập tại VTC Academy",
+      duration: "10/2020 - 05/2023",
+      org: "Lập trình Full-stack",
+      skills: [
+        "C",
+        "C#",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MongoDB",
+        "NodeJs",
+        "ReactJs",
+        "ReactNative",
+        "Go",
+      ],
+      class:
+        "bg-pink-100 text-pink-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
+    },
+  ];
+
   return (
     <div>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
-        {[
-          {
-            id: 0,
-            title: "Bảo vệ đồ án",
-            duration: "12/2023 - 10/2024",
-            org: "Dự án Hệ thống phân phối xe máy Agilts",
-            skills: ["Laravel", "Svelte", "MariaDB", "Meilisearch"],
-            class:
-              "bg-red-100 text-red-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
-          },
-          {
-            id: 1,
-            title: "Nhân viên tại Ecommage",
-            duration: "10/2023 - 11/2023",
-            org: "Lập trình viên Backend",
-            skills: ["Magento", "jQuery", "MySQL", "Elasticsearch"],
-            class:
-              "bg-green-100 text-green-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
-          },
-          {
-            id: 2,
-            title: "Thực tập tại Ecommage",
-            duration: "06/2023 - 09/2023",
-            org: "Thực tập sinh Backend",
-            skills: ["Magento", "jQuery"],
-            class:
-              "bg-yellow-100 text-yellow-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
-          },
-          {
-            id: 3,
-            title: "Học tập tại VTC Academy",
-            duration: "10/2020 - 05/2023",
-            org: "Lập trình Full-stack",
-            skills: [
-              "C",
-              "C#",
-              "PHP",
-              "Go",
-              "MySQL",
-              "MongoDB",
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "NodeJs",
-              "ReactJs",
-              "ReactNative",
-            ],
-            class:
-              "bg-pink-100 text-pink-800 text-sm font-medium m-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
-          },
-        ].map((item) => (
+        {data.map((item) => (
           <li className="mb-10 ms-6" key={item.id}>
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <svg

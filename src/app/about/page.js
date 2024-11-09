@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import CategoryCard from "@/components/category-card";
 import Signature from "@/components/signature";
+import Contact from "@/components/contact";
 
 export const metadata = {
   title: "Thông tin ✦ Nguyễn Đức Trí",
@@ -52,27 +52,10 @@ export default function About() {
             </div>
           </div>
           <CategoryCard />
-          <div className="text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
-            <h5 className="text-blue-600 select-none font-semibold mb-1 dark:text-orange-500">
-              Liên lạc
-            </h5>
-            <p>
-              <Link
-                className="underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
-                href="tel:+84982213854"
-              >
-                Gọi điện trực tiếp
-              </Link>{" "}
-              hoặc{" "}
-              <Link
-                className="underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
-                href="mailto:nguyenductri2k3@gmail.com"
-              >
-                Gửi lời mời qua hòm thư điện tử
-              </Link>
-            </p>
-          </div>
           <Signature />
+          <div className="mt-10 mx-auto">
+            <Contact />
+          </div>
         </div>
       </main>
     </div>

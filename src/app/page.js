@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { BsArrowUpRight } from "react-icons/bs";
 import Experience from "@/components/experience";
-import Contact from "@/components/contact";
 
 export default function Home() {
   const { systemTheme, theme } = useTheme();
@@ -60,9 +59,6 @@ export default function Home() {
       </div>
       <div className="mt-28 mx-auto">
         <Experience />
-      </div>
-      <div className="mt-28 mx-auto">
-        <Contact />
       </div>
     </div>
   );

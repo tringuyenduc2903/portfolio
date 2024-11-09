@@ -2,34 +2,36 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function ProjectCard() {
+  const data = [
+    {
+      id: 0,
+      image: "/galle.png",
+      title: "Đồng hồ Galle",
+      description: "Hệ thống phân phối đồng hồ chính hãng.",
+      link: "https://galle.vn",
+      target: "_blank",
+    },
+    {
+      id: 1,
+      image: "/routine.jpeg",
+      title: "Routine",
+      description: "Thương hiệu thời trang Việt Nam cao cấp.",
+      link: "https://routine.vn",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      image: "/agilts.png",
+      title: "Agilts",
+      description: "Hệ thống phân phối xe máy Honda, Yamaha.",
+      link: "https://agilts.com",
+      target: "_blank",
+    },
+  ];
+
   return (
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-      {[
-        {
-          id: 1,
-          image: "/galle.png",
-          title: "Đồng hồ Galle",
-          description: "Hệ thống phân phối đồng hồ chính hãng.",
-          link: "https://galle.vn",
-          target: "blank",
-        },
-        {
-          id: 2,
-          image: "/routine.jpeg",
-          title: "Routine",
-          description: "Thương hiệu thời trang Việt Nam cao cấp.",
-          link: "https://routine.vn",
-          target: "blank",
-        },
-        {
-          id: 3,
-          image: "/agilts.png",
-          title: "Agilts",
-          description: "Hệ thống phân phối xe máy Honda, Yamaha.",
-          link: "#",
-          target: "self",
-        },
-      ].map((project) => {
+      {data.map((project) => {
         return (
           <div
             className="rounded-lg mb-12 flex flex-col items-center"
