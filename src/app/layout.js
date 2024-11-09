@@ -7,6 +7,7 @@ import { Head } from "next/head";
 export const metadata = {
   title: "Nguyễn Đức Trí ✦ Lập trình viên",
   description: "Trang giới thiệu bản thân.",
+  favicon: "/favicon.ico",
 };
 
 export default function RootLayout({ children }) {

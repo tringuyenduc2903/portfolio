@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-row justify-start items-center mt-20">
           {theme && (
             <Image
-              src={theme === "dark" ? "/Avatar-black.png" : "/Avatar-white.png"}
+              src={theme === "dark" ? "/Avatar-white.png" : "/Avatar-black.png"}
               alt="avatar"
               loading="lazy"
               width={80}

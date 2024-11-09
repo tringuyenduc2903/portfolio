@@ -91,7 +91,7 @@ export default function Experience() {
         <div className="relative w-full h-80 transition duration-150 ease-out">
           {theme && (
             <Image
-              src={theme === "dark" ? "/float-black.png" : "/float-white.png"}
+              src={theme === "dark" ? "/float-white.png" : "/float-black.png"}
               alt="Design Image"
               loading="lazy"
               className="mx-auto"
@@ -108,7 +108,7 @@ export default function Experience() {
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center my-4">
           <div className="group border-blue-400 hover:bg-blue-400 text-blue-500 hover:text-white hover:drop-shadow-2xl rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-blue-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-blue-300">
             <Link
-              href="work"
+              href="/work"
               className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
             >
               <BsArrowUpRight className="dark:stroke-white stroke-blue-400 stroke-2 group-hover:stroke-white" />
