@@ -21,7 +21,7 @@ export default function About() {
                 src="/hero.jpg"
                 alt="hero"
                 className="rounded-full"
-                loading="lazy"
+                priority
                 width={160}
                 height={160}
               />

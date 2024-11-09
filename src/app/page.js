@@ -18,7 +18,7 @@ export default function Home() {
             <Image
               src={theme === "dark" ? "/Avatar-white.png" : "/Avatar-black.png"}
               alt="avatar"
-              loading="lazy"
+              priority
               width={80}
               height={80}
             />
