@@ -68,7 +68,7 @@ export default function Header() {
   }
 
   return (
-    <nav
+    <header
       ref={touchRef}
       className={`${
         isScrolled && "bg-opacity-[0.5] shadow-md drop-shadow-lg "
@@ -157,6 +157,6 @@ export default function Header() {
           ))}
         </ul>
       </div>
-    </nav>
+    </header>
   );
 }

@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function Tech() {
   return (
-    <div className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
-      <main className="min-h-screen max-w-screen">
+    <main className="px-10 sm:px-20 md:px-32 md:-mb-52 lg:mb-0 lg:px-60 mx-auto max-w-[75rem]">
+      <div className="min-h-screen max-w-screen">
         <div className="pt-24 flex flex-col items-cen mx-auto">
           <h2 className="selection:text-black/40 dark:selection:text-white/40 bg-gradient-to-r from-emerald-600 to-teal-400 bg-clip-text text-transparent items-center mx-auto text-5xl font-semibold">
             Công nghệ
@@ -38,7 +38,7 @@ export default function Tech() {
           </div>
           <TechStack />
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
